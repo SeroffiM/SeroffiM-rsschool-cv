@@ -48,7 +48,7 @@ function spinWords(string){
 	 * [react-way-of-samurai](https://github.com/it-kamasutra/react-way-of-samurai)
 	 * [code-basics](https://ru.code-basics.com/)
 
-## **Education** 
+## **Languages** 
 
  * **English** - A2
  * **Russian** - native speaker
