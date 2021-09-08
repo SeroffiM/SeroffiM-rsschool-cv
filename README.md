@@ -1,1 +1,0 @@
-https://SeroffiM.github.io/rsschool-cv/cv
