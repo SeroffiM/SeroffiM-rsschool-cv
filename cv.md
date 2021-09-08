@@ -34,3 +34,21 @@ function spinWords(string){
     return newArr.join(' ')
 }
 ```
+## **Experience**
+
+ * **Learning projects**
+	 * [School-website(Html,Css)](https://github.com/SeroffiM/ItSchool-website)
+	 * [getting news(React,Redux)](https://github.com/SeroffiM/React-app-1)
+
+## **Education**
+
+ * **Belarusian State University of Informatics and Radioelectronics**
+ * **Courses**:
+	 * [Html Academy](https://htmlacademy.ru/)
+	 * [react-way-of-samurai](https://github.com/it-kamasutra/react-way-of-samurai)
+	 * [code-basics](https://ru.code-basics.com/)
+
+## **Education** 
+
+ * **English** - A2
+ * **Russian** - native speaker
