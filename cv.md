@@ -6,7 +6,7 @@
 * **Telegram:** [Roma Serzhanovich](https://t.me/romaserzh)
 
 ## **About me** 
-I’m a junior frontend developer. I started studying Front-end development six months ago and during this time I have learned Js and Html at a sufficient level. I am always ready to learn something new, and my main goal is to become a proficient Front-end specialist.
+I am a 3rd-year student of BSUIR. I started studying Front-end development six months ago and during this time I have learned Js and Html at a sufficient level. I am always ready to learn something new, and my main goal is to become a proficient Front-end specialist.
 I consider communication skills and ability in learning new to be my strengths.
 
 ## **Skills** 
@@ -15,7 +15,6 @@ I consider communication skills and ability in learning new to be my strengths.
  * JavaScript(Es 6+)
  * React, Redux, Redux-thunk
  * Git/GitHub
-
 ## **Code example** 
 ```
 function spinWords(string){
