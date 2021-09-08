@@ -1,1 +1,1 @@
-# SeroffiM-rsschool-cv
+https://SeroffiM.github.io/rsschool-cv/cv
