@@ -640,6 +640,46 @@ pre code.hljs {
   .header__home-text-3 {
     font-size: 30px;
   }
+  .about-me__column-left {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 60px;
+  }
+  .about-me__column-right {
+    width: 100%;
+  }
+  .about-me__content-wrapper {
+    flex-direction: column;
+  }
+  .my-work__card {
+    width: calc(50% - 15px);
+    margin-bottom: 15px;
+  }
+  .my-work__card:last-child {
+    margin-bottom: 0px;
+  }
+  .my-work__content-wrapper {
+    flex-wrap: wrap;
+  }
+  .my-skills__content-wrapper{
+    flex-direction: column;
+  }
+  .my-skills__left-column {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .my-skills__right-column {
+    width: 100%;
+  }
+  .contacts__main-wrapper {
+    flex-direction: column;
+  }
+  .contacts__right-column {
+    width: 100%;
+  }
+  .contacts__left-column {
+    margin-bottom: 35px;
+  }
 }
 
 @media (max-width: 691px) {
@@ -660,6 +700,25 @@ pre code.hljs {
   }
   .header__home-text-3 {
     font-size: 24px;  
+  }
+  .my-work__card {
+    width: 100%;
+  }
+  .my-work__card-text {
+    text-align: center;
+    font-size: 19px;
+  }
+  .education-title::before {
+    width: 290px;
+  }
+  .education-title::after {
+    font-size: 17px;
+  }
+  .education__item-title {
+    font-size: 20px;
+  }
+  .edcuation__item-date {
+    font-size: 17px;
   }
   .footer__content-wrapper {
     flex-direction: column;
@@ -685,5 +744,68 @@ pre code.hljs {
   }
   .header__home-text-3 {
     font-size: 2rem;
+  }
+  .about-me__column-left {
+    width: 100%;
+  }
+  .my-work__card-text {
+    font-size: 15px;
+  }
+  .my-work-title::after {
+    font-size: 15px;
+  }
+  .my-skills__title::after {
+    font-size: 15px;
+  }
+  .education-title::after {
+    font-size: 15px;
+  }
+  .education-title::before {
+    width: 260px;
+  }
+  .education__item-title {
+    font-size: 18px;
+  }
+  .edcuation__item-date {
+    font-size: 15px;
+  }
+  pre code.hljs {
+    font-size: initial;
+  }
+}
+@media (max-width: 496px) {
+  .education-title::after {
+    font-size: 16px;
+    bottom: -22px;
+  }
+  .contacts__fields {
+    flex-direction: column;
+  }
+  .contacts__field {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .contacts__field:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 460px) {
+  .education-title::before {
+    width: 220px;
+  }
+  .my-video__video-wrapper {
+    height: 350px;
+  }
+  .contacts-mail {
+    font-size: 12px;
+  }
+  .contacts-title::after {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 325px) {
+  .education-title::after {
+    font-size: 15px;
   }
 }
