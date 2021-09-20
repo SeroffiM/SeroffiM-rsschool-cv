@@ -390,6 +390,44 @@ html{
   width: 55%;
 }
 
+.education__item {
+  position: relative;
+  font-family: Montserrat,sans-serif;
+  margin-bottom: 20px;
+}
+.education__item::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  bottom: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.education__item:last-child::before {
+  content: none;
+}
+.education__item-title {
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.edcuation__item-date {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.education-title::after {
+  content: 'where I got my knowledge';
+}
+.education-title::before {
+  width: 325px;
+}
+
+
 
 @media (max-width: 950px) {
   .wrapper {
