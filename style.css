@@ -270,23 +270,23 @@ html{
   text-decoration: none;
   min-height: 300px;
   width: calc(33% - 30px);
-
+  
   border-radius: 6px;
   padding: 50px 25px;
   transition: all .3s ease;
   z-index: 0;
 }
 .my-work__news-card {
-  background: url(/img/my-work2.png);
+  background: url(img/my-work2.png);
   background-size: cover;
 
 }
 .my-work__itSchool-card {
-  background: url(/img/my-work1.png);
+  background: url(img/my-work1.png);
   background-size: cover;
 }
 .my-work__personal-account-card {
-  background: url(/img/my-work3.png);
+  background: url(img/my-work3.png);
   background-size: cover;
 }
 .my-work__card::before {
