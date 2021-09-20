@@ -260,6 +260,69 @@ html{
   margin-bottom: 0;
 }
 
+.my-work__content-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.my-work__card {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  min-height: 300px;
+  width: calc(33% - 30px);
+
+  border-radius: 6px;
+  padding: 50px 25px;
+  transition: all .3s ease;
+  z-index: 0;
+}
+.my-work__news-card {
+  background: url(/img/my-work2.png);
+  background-size: cover;
+
+}
+.my-work__itSchool-card {
+  background: url(/img/my-work1.png);
+  background-size: cover;
+}
+.my-work__card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #222;
+  opacity: 0.8;
+  z-index: -1;
+}
+.my-work__card:hover:before {
+  opacity: 0;
+}
+.my-work__card:hover {
+  background: var(--red-color);
+  transform: scale(1.1);
+}
+
+.my-work__card-text{
+  font-family: Montserrat;
+  color: #fff;
+  font-weight: 500;
+}
+.my-work__card-text span {
+  text-decoration: underline;
+}
+.my-work__card-title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.my-skills__title::after {
+  content: 'what i know';
+}
+
 @media (max-width: 950px) {
   .wrapper {
     max-width: 930px;
