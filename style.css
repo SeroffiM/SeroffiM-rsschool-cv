@@ -322,6 +322,70 @@ html{
 .my-skills__title::after {
   content: 'what i know';
 }
+.my-skills__content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.my-skills__left-column {
+  font-family: Montserrat;
+  width: calc(50% - 30px);
+}
+.my-skills__left-column__title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.my-skills__left-column__text {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.my-skills__right-column {
+  width: calc(50% - 30px);
+}
+.my_skills__skil-item {
+  margin-bottom: 15px;
+}
+.my_skills__skil-item:last-child {
+  margin-bottom: 0;
+}
+.my_skills__skil-item p{
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.my-skills__left-column__english span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.my_skills__skil-line {
+  position: relative;
+  content: '';
+  width: 100%;
+  height: 5px;
+  background: lightgrey;
+}
+.my_skills__skil-line::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  background: var(--red-color);
+}
+.html-line::before {
+  width: 75%;
+}
+.css-line::before {
+  width: 70%;
+}
+.js-line::before {
+  width: 65%;
+}
+.react-line::before {
+  width: 50%;
+}
+.git-line::before {
+  width: 55%;
+}
+
 
 @media (max-width: 950px) {
   .wrapper {
