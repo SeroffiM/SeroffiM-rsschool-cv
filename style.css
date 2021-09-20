@@ -427,6 +427,13 @@ html{
   width: 325px;
 }
 
+.code__title::after {
+  content: 'my code';
+}
+pre code.hljs {
+  font-size: 18px;
+}
+
 
 
 @media (max-width: 950px) {
