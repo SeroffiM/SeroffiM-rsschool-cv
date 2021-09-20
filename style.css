@@ -285,6 +285,10 @@ html{
   background: url(/img/my-work1.png);
   background-size: cover;
 }
+.my-work__personal-account-card {
+  background: url(/img/my-work3.png);
+  background-size: cover;
+}
 .my-work__card::before {
   content: '';
   position: absolute;
