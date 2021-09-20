@@ -434,6 +434,94 @@ pre code.hljs {
   font-size: 18px;
 }
 
+.contacts-title::after {
+  content: 'get in touch';
+}
+.contacts__main-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+}
+.contacts__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.contacts__item:last-child {
+  margin-bottom: 0px;
+}
+.contacts__item i {
+  color: var(--red-color);
+  font-size: 35px;
+  margin-right: 15px;
+}
+.contacts__item-link {
+  font-family: Montserrat;
+  color: #333;
+  text-decoration: none;
+  transition: all .5s ease;
+  word-break: break-all;
+}
+.contacts__item-link:hover {
+  text-decoration: underline;
+  color: var(--red-color);
+}
+.contacts__right-column {
+  width: calc(50% - 30px);
+}
+.contacts__form-title {
+  font-family: Montserrat, serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contacts__fields {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.contacts__field {
+  width: calc(50% - 10px);
+  height: 45px;
+}
+.contacts__field input,
+.contacts__textareat-wrapper textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  padding: 0 15px;
+  outline: none;
+  font-family: Montserrat;
+  font-size: 17px;
+}
+.contacts__textareat-wrapper textarea {
+  padding-top: 10px;
+  resize: none;
+}
+.contacts__textareat-wrapper {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.contacts__btn {
+  display: block;
+  height: 45px;
+  width: 180px;
+  background: var(--red-color);
+  border: 2px var(--red-color) solid;
+  color: #fff;
+  border-radius: 6px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+.contacts__btn:hover {
+  background: #fff;
+  color: var(--red-color);
+}
 
 
 @media (max-width: 950px) {
