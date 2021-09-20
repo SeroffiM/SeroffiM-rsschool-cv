@@ -522,6 +522,44 @@ pre code.hljs {
   background: #fff;
   color: var(--red-color);
 }
+.footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+.footer__text {
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-right: 50px;
+  text-align: center;
+}
+.footer__contacts {
+  display: flex;
+  align-content: center;
+}
+.footer__contacts-link {
+  text-decoration: none;
+  margin-right: 30px;
+}
+.footer__contacts-link i {
+  font-size: 30px;
+  transition: .3s all ease-in-out;
+  color: white;
+
+}
+.rsschool{
+  transition: .3s all ease-in-out;
+}
+.footer__contacts-link i:hover,
+.rsschool:hover {
+  transform: scale(1.1);
+}
+.footer__content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 
 @media (max-width: 950px) {
@@ -623,6 +661,17 @@ pre code.hljs {
   .header__home-text-3 {
     font-size: 24px;  
   }
+  .footer__content-wrapper {
+    flex-direction: column;
+  }
+  .footer__text {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .footer__contacts {
+    justify-content: center;
+  }
+
 }
 
 @media (max-width: 577px) {
